@@ -47,11 +47,19 @@ Please, press ENTER to continue
 At the bottom, type **yes** to agree to the terms.
 
 ```none
-
+Do you accept the license terms? [yes|no]
+[no] >>> yes
 ```
 
 The installer will prompt you to accept the default location, or install to a different location. Use the default path unless you have a specific need to change it. (You may cancel the installation here if needed.)
 
 ```none
+Anaconda3 will now be installed into this location:
+/home/effie/anaconda3
 
+  - Press ENTER to confirm the location
+  - Press CTRL-C to abort the installation
+  - Or specify a different location below
+
+[/home/effie/anaconda3] >>>
 ```
