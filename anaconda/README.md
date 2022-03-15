@@ -63,3 +63,19 @@ Anaconda3 will now be installed into this location:
 
 [/home/effie/anaconda3] >>>
 ```
+
+## Activate and Test Installation
+
+Once finished, activate the installation by entering:
+
+```none
+source ~/.bashrc
+```
+
+## Getting started with Navigator
+
+Open a terminal window and type `anaconda-navigator`.
+
+```none
+anaconda-navigator
+```
