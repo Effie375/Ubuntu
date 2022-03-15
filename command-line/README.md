@@ -10,6 +10,8 @@ Helper commands for the command line include:
 - `tab` to autocomplete the line
 - `↑` and `↓` to cycle through previous commands
 
+---
+
 ### Print Working Directory (pwd)
 
 The shell command `pwd` displays the file path from the root directory to the current working directory.
@@ -19,6 +21,8 @@ effie@ubuntu:~$ pwd
 /home/effie
 ```
 
+---
+
 ### Make Directory (mkdir)
 
 The shell command `mkdir` is used to make a new directory in the filesystem according to its argument. If a file path is given, the new directory will be placed at the end. Otherwise, it will create a new directory in the current working directory.
@@ -26,6 +30,8 @@ The shell command `mkdir` is used to make a new directory in the filesystem acco
 ```none
 mkdir Python
 ```
+
+---
 
 ### List (ls)
 
@@ -35,6 +41,8 @@ The shell command `ls` is used to list the contents of a directory. If no argume
 effie@ubuntu:~$ ls
 Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
 ```
+
+---
 
 ### Change Directory (cd)
 
@@ -52,6 +60,8 @@ effie@ubuntu:~/Python/Tutorial-01$ cd ..
 effie@ubuntu:~/Python$ cd ../..
 effie@ubuntu:/home$ cd effie/
 ```
+
+---
 
 ### Create New File (touch)
 
