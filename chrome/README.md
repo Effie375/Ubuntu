@@ -43,3 +43,9 @@ google-chrome
 ```
 
 That is how easy the installation of Google Chrome Browser on Ubuntu 20.04 is.
+
+## Uninstall Chrome in Ubuntu 20.04
+
+```none
+sudo apt-get remove google-chrome-stable
+```
