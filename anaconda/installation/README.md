@@ -1,4 +1,4 @@
-# Install Anaconda on Ubuntu 20.04
+# Install Anaconda
 
 Anaconda is a package manager used in scientific computing and data science. It’s designed to provide scientific libraries and dependencies in the Python programming language. Anaconda is commonly used for machine learning and artificial intelligence applications.
 
@@ -33,7 +33,7 @@ The Anaconda installer is a **bash script**. To run the installation script, use
 bash Anaconda3-2021.11-Linux-x86_64.sh
 ```
 
-A license agreement will appear. Use the **Enter** key to review the agreement.
+The installer prompts "In order to continue the installation process, please review the license agreement." Click Enter to view license terms.
 
 ```none
 Welcome to Anaconda3 2021.11
@@ -44,14 +44,14 @@ Please, press ENTER to continue
 >>>
 ```
 
-At the bottom, type **yes** to agree to the terms.
+Scroll to the bottom of the license terms and enter "yes" to agree.
 
 ```none
 Do you accept the license terms? [yes|no]
 [no] >>> yes
 ```
 
-The installer will prompt you to accept the default location, or install to a different location. Use the default path unless you have a specific need to change it. (You may cancel the installation here if needed.)
+The installer prompts you to click Enter to accept the default install location, CTRL-C to cancel the installation, or specify an alternate installation directory. If you accept the default install location, the installer displays “PREFIX=/home/<user>/anaconda<2 or 3>” and continues the installation. It may take a few minutes to complete. We recommend you accept the default install location. Do not choose the path as /usr for the Anaconda/Miniconda installation.
 
 ```none
 Anaconda3 will now be installed into this location:
@@ -64,18 +64,21 @@ Anaconda3 will now be installed into this location:
 [/home/effie/anaconda3] >>>
 ```
 
-## Activate and Test Installation
+The installer prompts "Do you wish the installer to initialize Anaconda3 by running conda init?" We recommend "yes". If you enter "no", then conda will not modify your shell scripts at all. In order to initialize after the installation process is done, first run `source <path to conda>/bin/activate` and then run `conda init`.
 
-Once finished, activate the installation by entering:
+```none
+source ~/anaconda3/bin/activate
+conda init
+```
+
+The installer finishes and displays "Thank you for installing Anaconda<2 or 3>!"
+
+The installer provides a link to install PyCharm for Anaconda at https://www.anaconda.com/pycharm.
+
+Close and open your terminal window for the installation to take effect, or you can enter the command `source ~/.bashrc`.
 
 ```none
 source ~/.bashrc
 ```
 
-## Getting started with Navigator
-
-Open a terminal window and type `anaconda-navigator`.
-
-```none
-anaconda-navigator
-```
+To control whether or not each shell session has the base environment activated or not, run `conda config --set auto_activate_base False or True`. To run conda from anywhere without having the base environment activated by default, use `conda config --set auto_activate_base False`. This only works if you have run `conda init` first.
