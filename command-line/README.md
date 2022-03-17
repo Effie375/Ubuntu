@@ -17,8 +17,8 @@ Helper commands for the command line include:
 The shell command `pwd` displays the file path from the root directory to the current working directory.
 
 ```none
-effie@ubuntu:~$ pwd
-/home/effie
+test@ESPRIMO-P520:~$ pwd
+/home/test
 ```
 
 ---
@@ -38,7 +38,7 @@ mkdir Python
 The shell command `ls` is used to list the contents of a directory. If no arguments are given, it will list the contents of the current working directory.
 
 ```none
-effie@ubuntu:~$ ls
+test@ESPRIMO-P520:~$ ls
 Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
 ```
 
@@ -53,12 +53,12 @@ The shell command `cd` is used to move throughout the filesystem of a computer. 
 - `..` the parent of the current directory.
 
 ```none
-effie@ubuntu:~$ cd Python/Tutorial-01/
-effie@ubuntu:~/Python/Tutorial-01$ pwd
-/home/effie/Python/Tutorial-01
-effie@ubuntu:~/Python/Tutorial-01$ cd ..
-effie@ubuntu:~/Python$ cd ../..
-effie@ubuntu:/home$ cd effie/
+test@ESPRIMO-P520:~$ cd Python/Tutorial-01/
+test@ESPRIMO-P520:~/Python/Tutorial-01$ pwd
+/home/test/Python/Tutorial-01
+test@ESPRIMO-P520:~/Python/Tutorial-01$ cd ..
+test@ESPRIMO-P520:~/Python$ cd ../..
+test@ESPRIMO-P520:/home$ cd effie/
 ```
 
 ---
@@ -68,7 +68,7 @@ effie@ubuntu:/home$ cd effie/
 The shell command `touch` creates a new file in the current working directory with the name provided.
 
 ```none
-effie@ubuntu:~/Python/Tutorial-01$ touch hello.py
-effie@ubuntu:~/Python/Tutorial-01$ ls
+test@ESPRIMO-P520:~/Python/Tutorial-01$ touch hello.py
+test@ESPRIMO-P520:~/Python/Tutorial-01$ ls
 hello.py
 ```
