@@ -1,4 +1,4 @@
-# Install Google Chrome Browser on Ubuntu 20.04
+# Install Google Chrome Browser
 
 If you installed the minimal Ubuntu 20.04, chances are, you do not have Chrome browser installed. Therefore, follow this guide to learn how to install Google Chrome Browser on Ubuntu 20.04.
 
@@ -32,7 +32,7 @@ The latest Google Chrome browser has been installed on Ubuntu 20.04;
 google-chrome --version
 ```
 
-## Running Google Chrome Browser on Ubuntu 20.04
+## Running Google Chrome Browser
 
 You can now launch Google Chrome browser from activities on Ubuntu 20.04.
 
@@ -44,7 +44,7 @@ google-chrome
 
 That is how easy the installation of Google Chrome Browser on Ubuntu 20.04 is.
 
-## Uninstall Chrome in Ubuntu 20.04
+## Uninstall Chrome
 
 ```none
 sudo apt-get remove google-chrome-stable
