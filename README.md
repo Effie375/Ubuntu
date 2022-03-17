@@ -1,4 +1,4 @@
-# Ubuntu - Documentation
+# Documentation
 
 ## What is Ubuntu?
 
@@ -8,7 +8,7 @@ Ubuntu is a popular Linux distribution open-source operating system that’s ope
 
 Ubuntu is popular for a variety of reasons, and it’s attractive to builders who need a free, open source solution that’s secure and easy to use. The popularity of the software combined with the collaborative nature of open source means that Ubuntu is well-supported in the Canonical community. The operating system is user-friendly and customizable, and Ubuntu offers enhanced security within its OS.
 
-## Ubuntu - Overview
+## Overview
 
 - [Command Line](command-line)
 - [Install Chrome](chrome)
