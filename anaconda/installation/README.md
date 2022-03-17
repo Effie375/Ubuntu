@@ -51,7 +51,7 @@ Do you accept the license terms? [yes|no]
 [no] >>> yes
 ```
 
-The installer prompts you to click Enter to accept the default install location, CTRL-C to cancel the installation, or specify an alternate installation directory. If you accept the default install location, the installer displays “PREFIX=/home/<user>/anaconda<2 or 3>” and continues the installation. It may take a few minutes to complete. We recommend you accept the default install location. Do not choose the path as /usr for the Anaconda/Miniconda installation.
+The installer prompts you to click Enter to accept the default install location, CTRL-C to cancel the installation, or specify an alternate installation directory. If you accept the default install location, the installer displays "PREFIX=/home/test/anaconda3" and continues the installation. It may take a few minutes to complete. We recommend you accept the default install location. Do not choose the path as /usr for the Anaconda/Miniconda installation.
 
 ```none
 Anaconda3 will now be installed into this location:
@@ -71,7 +71,7 @@ source ~/anaconda3/bin/activate
 conda init
 ```
 
-The installer finishes and displays "Thank you for installing Anaconda<2 or 3>!"
+The installer finishes and displays "Thank you for installing Anaconda3!"
 
 The installer provides a link to install PyCharm for Anaconda at https://www.anaconda.com/pycharm.
 
