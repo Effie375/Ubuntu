@@ -13,5 +13,6 @@ Ubuntu is popular for a variety of reasons, and it’s attractive to builders wh
 - [Command Line](command-line)
 - [Install Chrome](chrome)
   - [Install Chrome Remote Desktop](chrome/chrome-remote-desktop)
-- [Install Anaconda](anaconda/installation)
+- [Anaconda](anaconda)
+  - [Install Anaconda](anaconda/installation)
   - [Conda Cheat Sheet](anaconda/conda)
