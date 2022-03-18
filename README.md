@@ -16,3 +16,4 @@ Ubuntu is popular for a variety of reasons, and it’s attractive to builders wh
 - [Anaconda](anaconda)
   - [Install Anaconda](anaconda/installation)
   - [Conda Cheat Sheet](anaconda/conda)
+- [Jupyter Notebook](jupyter)
