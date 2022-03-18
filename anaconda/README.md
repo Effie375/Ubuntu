@@ -18,9 +18,9 @@ See full documentation for Anaconda Distribution: docs.anaconda.com/anaconda/
 
 Anaconda Distribution is available for Windows 7 and newer, macOS 10.10 and newer, or any Linux distribution with a glibc version greater than 2.12 (CentOS 6). Anaconda requires 3GB of free hard drive space, while Miniconda needs only 400 MB.
 
-Quick install: https://docs.anaconda.com/anaconda/install
-Getting started with Anaconda: https://docs.anaconda.com/anaconda/user-guide/getting-started
-Take the Conda test drive: conda.io/docs/test-drive.html
+- Quick install: https://docs.anaconda.com/anaconda/install
+- Getting started with Anaconda: https://docs.anaconda.com/anaconda/user-guide/getting-started
+- Take the Conda test drive: conda.io/docs/test-drive.html
 
 ## Anaconda Navigator
 
