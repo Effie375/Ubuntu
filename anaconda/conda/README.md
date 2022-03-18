@@ -83,3 +83,15 @@ Install from requirements file
 ```none
 conda install --file requirements.txt
 ```
+
+To update Anaconda on Ubuntu, start by updating the `conda` utility:
+
+```none
+conda update conda
+```
+
+Next, run the Anaconda package update command:
+
+```none
+conda update anaconda
+```
