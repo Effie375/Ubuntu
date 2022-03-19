@@ -25,8 +25,37 @@ Jupyter Notebook is an open-source web application that allows you to create and
 |`4`|change cell to heading 4|
 |`5`|change cell to heading 5|
 |`6`|change cell to heading 6|
-|``||
-|``||
+|`K`|select cell above|
+|`Up`|select cell above|
+|`Down`|select cell below|
+|`J`|select cell below|
+|`Shift-K`|extend selected cells above|
+|`Shift-Up`|extend selected cells above|
+|`Shift-Down`|extend selected cells below|
+|`Shift-J`|extend selected cells below|
+|`Ctrl-A`|select all cells|
+|`A`|insert cell above|
+|`B`|insert cell below|
+|`X`|cut selected cells|
+|`C`|copy selected cells|
+|`Shift-V`|paste cells above|
+|`V`|paste cells below|
+|`Z`|undo cell deletion|
+|`D`, `D`|delete selected cells|
+|`Shift-M`|merge selected cells, or current cell with cell below if only one cell is selected|
+|`Ctrl-S`|Save and Checkpoint|
+|`S`|Save and Checkpoint|
+|`L`|toggle line numbers|
+|`0`|toggle output of selected cells|
+|`Shift-0`|toggle output scrolling of selected cells|
+|`H`|show keyboard shortcuts|
+|`I`, `I`|interrupt the kernel|
+|`0`, `0`|restart the kernel (with dialog)|
+|`Esc`|close the pager|
+|`Q`|close the pager|
+|`Shift-L`|toggles line numbers in all cells, and persist the setting|
+|`Shift-Space`|scroll notebook up|
+|`Space`|scroll notebook down|
 
 ### Edit Mode (press `Enter` to enable)
 
