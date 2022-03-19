@@ -35,36 +35,23 @@ Jupyter Notebook is an open-source web application that allows you to create and
 
 ### Edit Mode (press `Enter` to enable)
 
-Tab: code completion or indent
-Shift-Tab: tooltip
-Ctrl-]: indent
-Ctrl-[: dedent
-Ctrl-A: select all
-Ctrl-Z: undo
-Ctrl-/: comment
-Ctrl-D: delete whole line
-Ctrl-U: undo selection
-Insert: toggle overwrite flag
-Ctrl-Home: go to cell start
-Ctrl-Up: go to cell start
-Ctrl-End: go to cell end
-Ctrl-Down: go to cell end
-Ctrl-Left: go one word left
-Ctrl-Right: go one word right
-Ctrl-Backspace: delete word before
-Ctrl-Delete: delete word after
-Ctrl-Y: redo
-Alt-U: redo selection
-Ctrl-M: enter command mode
-Ctrl-Shift-F: open the command palette
-Ctrl-Shift-P: open the command palette
-Esc: enter command mode
-Shift-Enter: run cell, select below
-Ctrl-Enter: run selected cells
-Alt-Enter: run cell and insert below
-Ctrl-Shift-Minus: split cell at cursor(s)
-Ctrl-S: Save and Checkpoint
-Down: move cursor down
-Up: move cursor up
+|Command|Description|Command|Description|
+|:-:|:-:|:-:|:-:|
+|`Tab`|code completion or indent|`Ctrl-Backspace`|delete word before|
+|`Shift-Tab`|tooltip|`Ctrl-Delete`|delete word after|
+|`Ctrl-]`|indent|`Ctrl-Y`|redo|
+|`Ctrl-[`|dedent|`Alt-U`|redo selection|
+|`Ctrl-A`|select all|`Ctrl-M`|enter command mode|
+|`Ctrl-Z`|undo|`Ctrl-Shift-F`|open the command palette|
+|`Ctrl-/`|comment|`Ctrl-Shift-P`|open the command palette|
+|`Ctrl-D`|delete whole line|`Esc`|enter command mode|
+|`Ctrl-U`|undo selection|`Shift-Enter`|run cell, select below|
+|`Insert`|toggle overwrite flag|`Ctrl-Enter`|run selected cells|
+|`Ctrl-Home`|go to cell start|`Alt-Enter`|run cell and insert below|
+|`Ctrl-Up`|go to cell start|`Ctrl-Shift-Minus`|split cell at cursor(s)|
+|`Ctrl-End`|go to cell end|`Ctrl-S`|Save and Checkpoint|
+|`Ctrl-Down`|go to cell end|`Down`|move cursor down|
+|`Ctrl-Left`|go one word left|`Up`|move cursor up|
+|`Ctrl-Right`|go one word right|
 
 ![Jupyter](Jupyter.png)
