@@ -6,56 +6,32 @@ Jupyter Notebook is an open-source web application that allows you to create and
 
 ### Command Mode (press `Esc` to enable)
 
-|Command|Description|
-|:-:|:-:|
-|`F`|find and replace|
-|`Ctrl-Shift-F`|open the command palette|
-|`Ctrl-Shift-P`|open the command palette|
-|`Enter`|enter edit mode|
-|`P`|open the command palette|
-|`Shift-Enter`|run cell, select below|
-|`Ctrl-Enter`|run selected cells|
-|`Alt-Enter`|run cell and insert below|
-|`Y`|change cell to code|
-|`M`|change cell to markdown|
-|`R`|change cell to raw|
-|`1`|change cell to heading 1|
-|`2`|change cell to heading 2|
-|`3`|change cell to heading 3|
-|`4`|change cell to heading 4|
-|`5`|change cell to heading 5|
-|`6`|change cell to heading 6|
-|`K`|select cell above|
-|`Up`|select cell above|
-|`Down`|select cell below|
-|`J`|select cell below|
-|`Shift-K`|extend selected cells above|
-|`Shift-Up`|extend selected cells above|
-|`Shift-Down`|extend selected cells below|
-|`Shift-J`|extend selected cells below|
-|`Ctrl-A`|select all cells|
-|`A`|insert cell above|
-|`B`|insert cell below|
-|`X`|cut selected cells|
-|`C`|copy selected cells|
-|`Shift-V`|paste cells above|
-|`V`|paste cells below|
-|`Z`|undo cell deletion|
-|`D`, `D`|delete selected cells|
-|`Shift-M`|merge selected cells, or current cell with cell below if only one cell is selected|
-|`Ctrl-S`|Save and Checkpoint|
-|`S`|Save and Checkpoint|
-|`L`|toggle line numbers|
-|`0`|toggle output of selected cells|
-|`Shift-0`|toggle output scrolling of selected cells|
-|`H`|show keyboard shortcuts|
-|`I`, `I`|interrupt the kernel|
-|`0`, `0`|restart the kernel (with dialog)|
-|`Esc`|close the pager|
-|`Q`|close the pager|
-|`Shift-L`|toggles line numbers in all cells, and persist the setting|
-|`Shift-Space`|scroll notebook up|
-|`Space`|scroll notebook down|
+|Command|Description|Command|Description|
+|:-:|:-:|:-:|:-:|
+|`F`|find and replace|`Shift-J`|extend selected cells below|
+|`Ctrl-Shift-F`|open the command palette|`Ctrl-A`|select all cells|
+|`Ctrl-Shift-P`|open the command palette|`A`|insert cell above|
+|`Enter`|enter edit mode|`B`|insert cell below|
+|`P`|open the command palette|`X`|cut selected cells|
+|`Shift-Enter`|run cell, select below|`C`|copy selected cells|
+|`Ctrl-Enter`|run selected cells|`Shift-V`|paste cells above|
+|`Alt-Enter`|run cell and insert below|`V`|paste cells below|
+|`Y`|change cell to code|`Z`|undo cell deletion|
+|`M`|change cell to markdown|`D`, `D`|delete selected cells|
+|`R`|change cell to raw|`Shift-M`|merge selected cells, or current cell with cell below if only one cell is selected|
+|`1`|change cell to heading 1|`Ctrl-S`|Save and Checkpoint|
+|`2`|change cell to heading 2|`S`|Save and Checkpoint|
+|`3`|change cell to heading 3|`L`|toggle line numbers|
+|`4`|change cell to heading 4|`0`|toggle output of selected cells|
+|`5`|change cell to heading 5|`Shift-0`|toggle output scrolling of selected cells|
+|`6`|change cell to heading 6|`H`|show keyboard shortcuts|
+|`K`|select cell above|`I`, `I`|interrupt the kernel|
+|`Up`|select cell above|`0`, `0`|restart the kernel (with dialog)|
+|`Down`|select cell below|`Esc`|close the pager|
+|`J`|select cell below|`Q`|close the pager|
+|`Shift-K`|extend selected cells above|`Shift-L`|toggles line numbers in all cells, and persist the setting|
+|`Shift-Up`|extend selected cells above|`Shift-Space`|scroll notebook up|
+|`Shift-Down`|extend selected cells below|`Space`|scroll notebook down|
 
 ### Edit Mode (press `Enter` to enable)
 
