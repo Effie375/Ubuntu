@@ -2,7 +2,7 @@
 
 ## Add a New Group
 
-If you want to create a new group on your system, use the groupadd command following command, replacing new_group with the name of the group you want to create. You’ll need to use sudo with this command as well (or, on Linux distributions that don’t use sudo, you’ll need to run the su command on its own to gain elevated permissions before running the command).
+If you want to create a new group on your system, use the groupadd command.
 
 ```none
 sudo groupadd tpte
