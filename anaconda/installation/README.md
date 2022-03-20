@@ -22,7 +22,7 @@ sudo apt-get update
 Switch to the /Downloads directory and download the [Anaconda installer](https://www.anaconda.com/products/individual#linux) for Linux:
 
 ```none
-cd ~Downloads
+cd ~/Downloads
 ```
 
 ## Run Anaconda Installation Script
