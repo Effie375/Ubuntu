@@ -53,7 +53,3 @@ Jupyter Notebook is an open-source web application that allows you to create and
 |`Ctrl-Down`|go to cell end|`Down`|move cursor down|
 |`Ctrl-Left`|go one word left|`Up`|move cursor up|
 |`Ctrl-Right`|go one word right|
-
-## CheatSheet
-
-![Jupyter](Jupyter.png)
