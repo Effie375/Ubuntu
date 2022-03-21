@@ -12,7 +12,7 @@ Helper commands for the command line include:
 
 ---
 
-### Print Working Directory (pwd)
+### Print Working Directory
 
 The shell command `pwd` displays the file path from the root directory to the current working directory.
 
@@ -23,7 +23,7 @@ test@ESPRIMO-P520:~$ pwd
 
 ---
 
-### Make Directory (mkdir)
+### Make Directory
 
 The shell command `mkdir` is used to make a new directory in the filesystem according to its argument. If a file path is given, the new directory will be placed at the end. Otherwise, it will create a new directory in the current working directory.
 
@@ -33,7 +33,7 @@ mkdir Python
 
 ---
 
-### List (ls)
+### List
 
 The shell command `ls` is used to list the contents of a directory. If no arguments are given, it will list the contents of the current working directory.
 
@@ -44,7 +44,7 @@ Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
 
 ---
 
-### Change Directory (cd)
+### Change Directory
 
 The shell command `cd` is used to move throughout the filesystem of a computer. It accepts a variety of arguments:
 
@@ -63,7 +63,7 @@ test@ESPRIMO-P520:/home$ cd effie/
 
 ---
 
-### Create New File (touch)
+### Create New File
 
 The shell command `touch` creates a new file in the current working directory with the name provided.
 
