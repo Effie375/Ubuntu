@@ -1,12 +1,14 @@
-# Jupyter Notebook
+# Σημειωματάριο Jupyter
 
-Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. It is used for data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more.
+Το σεμινάριο Jupyter Notebook παρέχει ένα διαδραστικό περιβάλλον υπολογιστών που επιτρέπει στους χρήστες να δημιουργούν έγγραφα σημειωματάριων. Το όνομα Jupyter προέρχεται από τις βασικές γλώσσες προγραμματισμού που υποστηρίζει: Julia, Python, και R.
 
-## Keyboard shortcuts
 
-### Command Mode (press `Esc` to enable)
 
-|Command|Description|Command|Description|
+## Συντομεύσεις πληκτρολογίου
+
+### Command Mode (πατήστε `Esc` για να το ενεργοποιήσετε)
+
+|Εντολή|Περιγραφή|Εντολή|Περιγραφή|
 |:-:|:-:|:-:|:-:|
 |`F`|find and replace|`Shift-J`|extend selected cells below|
 |`Ctrl-Shift-F`|open the command palette|`Ctrl-A`|select all cells|
@@ -33,9 +35,9 @@ Jupyter Notebook is an open-source web application that allows you to create and
 |`Shift-Up`|extend selected cells above|`Shift-Space`|scroll notebook up|
 |`Shift-Down`|extend selected cells below|`Space`|scroll notebook down|
 
-### Edit Mode (press `Enter` to enable)
+### Edit Mode (πατήστε `Enter` για να το ενεργοποιήσετε)
 
-|Command|Description|Command|Description|
+|Εντολή|Περιγραφή|Εντολή|Περιγραφή|
 |:-:|:-:|:-:|:-:|
 |`Tab`|code completion or indent|`Ctrl-Backspace`|delete word before|
 |`Shift-Tab`|tooltip|`Ctrl-Delete`|delete word after|
