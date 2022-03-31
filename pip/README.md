@@ -1,27 +1,33 @@
-# Installing pip for Python 3
+# Εγκατάσταση Pip για Python 3
 
-Ubuntu 20.04 ships with Python 3, as the default Python installation. Complete the following steps to install `pip` (pip3) for Python 3:
-
-```none
-sudo apt update
-```
-
-Use the following command to install pip for Python 3:
+Αν θέλουμε να **εγκαταστήσουμε το pip για το Python 3 στο Ubuntu 20.04**, θα πρέπει να εκτελέσουμε μόνο τις ακόλουθες εντολές σε ένα τερματικό (Ctrl + Alt + T):
 
 ```none
-sudo apt install python3-pip
+sudo apt update && sudo apt install python3-pip
 ```
 
-The command above will also install all the dependencies required for building Python modules.
-
-Once the installation is complete, verify the installation by checking the pip version:
+Όταν ολοκληρωθεί η εγκατάσταση, μπορούμε **να επαληθεύσουμε την εγκατάσταση και να ελέγξουμε την εγκατεστημένη έκδοση**:
 
 ```none
 pip3 --version
 ```
 
-The version number may vary, but it will look something like this:
+Ο αριθμός έκδοσης μπορεί να διαφέρει, αλλά θα φαίνεται λίγο πολύ όπως μπορούμε να δούμε παρακάτω:
 
 ```none
 pip 20.0.2 from /usr/lib/python3/dist-packages/pip (python 3.8)
+```
+
+## Μερικά βασικά στοιχεία για τη χρήση του Pip
+
+Τώρα ας δούμε μερικές χρήσιμες βασικές εντολές pip. Για να δούμε τη λίστα όλων των διαθέσιμων εντολών και επιλογών απλά πρέπει να γράψουμε:
+
+```none
+pip3 --help
+```
+
+Για να λάβουμε περισσότερες πληροφορίες σχετικά με την εντολή εγκατάστασης, απλώς πληκτρολογούμε:
+
+```none
+pip3 install --help
 ```
