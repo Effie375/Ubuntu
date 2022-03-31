@@ -6,7 +6,7 @@
 
 Οι βοηθητικές εντολές για τη γραμμή εντολών περιλαμβάνουν:
 
-- `clear` για να καθαρίσετε το τερματικό
+- `clear` καθαρίζει το τερματικό σβήνοντας όλες τις γραμμές
 - `tab` για αυτόματη συμπλήρωση της γραμμής
 - `↑` και `↓` για να ανατρέξετε στις προηγούμενες εντολές
 
@@ -29,9 +29,9 @@ To prompt σας παρακινεί να δώσετε μια εντολή. Πα�
 - `~` – Το σύμβολο `~` συμβολίζει πάντα το **home** μας, δηλαδή τον προσωπικό φάκελο μας. Κάθε φορά που ανοίγετε ένα τερματικό βρίσκεστε αυτόματα σε αυτόν τον φάκελο (/home/test όπου **test** είναι το όνομα του λογαριασμού σας). Μόλις αλλάξετε κατάλογο με την `cd`, το prompt θα ανανεωθεί κατάλληλα με το όνομα του εκάστοτε καταλόγου.
 - `$` – Το σήμα του δολάριου δεν έχει καμία σχέση με χρήμα. Σημαίνει ότι είστε συνδεδεμένοι με προνόμια απλού χρήστη. Δηλαδή μπορείτε να κάνετε ότι θέλετε μόνο στον προσωπικό σας φάκελο και πουθενά αλλού. Αν όμως είσασταν συνδεδεμένοι ως **root**, τότε αντί για δολάριο θα βλέπατε ένα `#`. Αυτό είναι χρήσιμο για να ξεχωρίζουμε τις δύο καταστάσεις.
 
-### Εμφάνιση του ενεργού φακέλου
+### Εμφάνιση τρέχοντος φακέλου
 
-The shell command `pwd` displays the file path from the root directory to the current working directory.
+Κάθε φορά που μπαίνουμε σε ένα περιβάλλον γραμμής εντολών (ονομάζεται και κονσόλα ή τερματικό) βρισκόμαστε πάντα στον προσωπικό φάκελο του user μας. Η εντολή pwd (από τα αρχικά της φράσης "print working directory") μας δείχνει το όνομα του φακέλου στον οποίο βρισκόμαστε (τρέχον φάκελος).
 
 ```none
 test@ESPRIMO-P520:~$ pwd
@@ -42,7 +42,7 @@ test@ESPRIMO-P520:~$ pwd
 
 ### Δημιουργία φακέλου
 
-The shell command `mkdir` is used to make a new directory in the filesystem according to its argument. If a file path is given, the new directory will be placed at the end. Otherwise, it will create a new directory in the current working directory.
+Για να φτιάξουμε έναν νέο φάκελο, με όνομα Python, δίνουμε την εντολή
 
 ```none
 mkdir Python
@@ -50,9 +50,9 @@ mkdir Python
 
 ---
 
-### List
+### Περιεχόμενα φακέλου
 
-The shell command `ls` is used to list the contents of a directory. If no arguments are given, it will list the contents of the current working directory.
+Αν δώσετε `ls` θα δείτε τα περιεχόμενα του προσωπικού φακέλου σας, όπου αρχικά οι περισσότερες διανομές δημιουργούν μερικούς τυπικούς υποφακέλους (για αποθήκευση των βίντεο, της μουσική σας, κοκ). Παρατηρήστε ότι οι φάκελοι εμφανίζονται με διαφορετικό χρώμα από τα αρχεία.
 
 ```none
 test@ESPRIMO-P520:~$ ls
@@ -61,31 +61,44 @@ Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
 
 ---
 
-### Change Directory
+### Αλλαγή φακέλου
 
-The shell command `cd` is used to move throughout the filesystem of a computer. It accepts a variety of arguments:
-
-- Full file paths.
-- Names of children of the current directory.
-- `..` the parent of the current directory.
+Πολλές φορές λέμε σε κάποιον "πήγαινε στο φάκελο Python" ζητώντας να πληκτρολογήσει την εντολή:
 
 ```none
-test@ESPRIMO-P520:~$ cd Python/Tutorial-01/
-test@ESPRIMO-P520:~/Python/Tutorial-01$ pwd
-/home/test/Python/Tutorial-01
-test@ESPRIMO-P520:~/Python/Tutorial-01$ cd ..
-test@ESPRIMO-P520:~/Python$ cd ../..
-test@ESPRIMO-P520:/home$ cd effie/
+test@ESPRIMO-P520:~$ cd Python
 ```
+
+Η εντολή cd (change dir) σημαίνει απλά "άλλαξε κατάλογο ή φάκελο" και δέχεται μία παράμετρο: το νέο φάκελο όπου θέλουμε να πάμε.
+
+Μπήκατε στο φάκελο Python. Πως βγαίνετε από εκεί όμως; Απλό! Ή πάτε στον προσωπικό σας κατάλογο απευθείας, δίνοντας
+
+```none
+test@ESPRIMO-P520:~/Python$ cd
+```
+
+ή πηγαίνετε ένα "επίπεδο πάνω" στην ιεραρχία του συστήματος αρχείων με την εντολή
+
+```none
+test@ESPRIMO-P520:~/Python$ cd ..
+```
+
+Οι δύο τελείες σημαίνουν κατά σύμβαση "γονικός φάκελος" ενώ η μία τελεία σημαίνει πάντα "τρέχον φάκελος". Έτσι δίνοντας
+
+```none
+test@ESPRIMO-P520:~/Python$ cd .
+```
+
+δεν θα πάτε πουθενά ...
 
 ---
 
 ### Create New File
 
-The shell command `touch` creates a new file in the current working directory with the name provided.
+Πως δημιουργούμε ένα νέο αρχείο κειμένου; Με την εντολή touch:
 
 ```none
-test@ESPRIMO-P520:~/Python/Tutorial-01$ touch hello.py
-test@ESPRIMO-P520:~/Python/Tutorial-01$ ls
-hello.py
+test@ESPRIMO-P520:~$ touch test.txt
 ```
+
+δημιουργούμε ένα κενό αρχείο **test.txt**.
